@@ -1,0 +1,52 @@
+body{
+    margin: 0
+}
+
+@font-face {
+    font-family: 'norse';
+    src: url(./font/Norse-Bold.otf);
+}
+.main-container{
+    width:100%;
+    height: 100vh;
+    display: flex;
+}
+
+.img-container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    flex: 2;
+    background-image: url(./img/malte-michels-s4wGZw3UuLk-unsplash.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    color: white;
+}
+
+.odin-img{
+    height: 80%;
+    width: 15%
+}
+
+.hero{
+    margin-top: 25%;
+    height: 19%;
+    width: 100vh;
+    background: rgba(1,1,1,.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero p{
+    font-size: 89px;
+    font-family: norse;
+}
+
+
+.form-container{
+    width: 100%;
+    height: 100%;
+    flex: 3;
+}

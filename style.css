@@ -96,3 +96,40 @@ body{
     background: #FFFFFF;
     flex: 3;
 }
+
+.form-container form{
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.form-container h2{
+    margin-left: 40px;
+}
+
+.control-el{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+form label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #E8EAED;
+    background-color: #F9FAFB;
+}
+
+form input:focus{
+    border: 1px solid blue;
+    box-shadow: -2px -1px 5px 2px rgba(168,40,168,1);
+}
+#first-col{
+    margin-right: 60px;
+}
